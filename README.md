@@ -1,7 +1,7 @@
 # multiplicationTable
 
 commandline arguments: "1" "10" "1" "10" creates the following table:
-
+```
      1   2   3   4   5   6   7   8   9
  1   1   2   3   4   5   6   7   8   9
  2   2   4   6   8  10  12  14  16  18
@@ -12,5 +12,5 @@ commandline arguments: "1" "10" "1" "10" creates the following table:
  7   7  14  21  28  35  42  49  56  63
  8   8  16  24  32  40  48  56  64  72
  9   9  18  27  36  45  54  63  72  81
- 
+ ```
  etc. formatting should be fine, all input should work as long as args[0] < args[1] and args[2] < args[3]
