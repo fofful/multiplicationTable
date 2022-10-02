@@ -18,7 +18,7 @@ fn main() {
         j_max_copy = j_max_copy / 10;
         j_count = j_count + 1;
     };
-    println!("count is {}", count);
+
     for j_c in 0..j_count{
         print!(" ");
     }
